@@ -1,9 +1,9 @@
 const FeaturedProject = () => {
     return ( 
         <>
-        <div class="max-w-main sm:max-w-[90%] mx-auto mt-20 mb-10 sm:mt-10 sm:mb-7">
-            <h3 class="font-inter text-main font-medium text-4xl mb-3 sm:text-2xl dark:text-white" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">Featured Project</h3>
-            <p class="font-inter text-main text-[15px] leading-6 dark:text-drktext" data-aos="fade-up" data-aos-duration="650" data-aos-once="true">Check out my past project, small or big, personal or freelance, bad or less bad. All mine!</p>
+        <div className="max-w-main sm:max-w-[90%] mx-auto mt-20 mb-10 sm:mt-10 sm:mb-7">
+            <h3 className="font-inter text-main font-medium text-4xl mb-3 sm:text-2xl dark:text-white" data-aos="fade-up" data-aos-duration="600" data-aos-once="true">Featured Project</h3>
+            <p className="font-inter text-main text-[15px] leading-6 dark:text-drktext" data-aos="fade-up" data-aos-duration="650" data-aos-once="true">Check out my past project, small or big, personal or freelance, bad or less bad. All mine!</p>
         </div>
         <div className="max-w-main sm:max-w-[90%] mx-auto">
             <div className="flex justify-between mb-16 sm:flex-col sm:mb-7" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">

@@ -1,4 +1,5 @@
 import BackgroundHeader from './component/BackgroundHeader';
+import BlogList from './component/BlogList';
 import FeaturedProject from './component/FeaturedProject';
 import Navbar from './component/Navbar'
 import Skills from './component/Skills';
@@ -12,6 +13,7 @@ const Homepage = () => {
         <TextHeader/>
         <Skills/>
         <FeaturedProject/>
+        <BlogList/>
         </>
      );
 }
