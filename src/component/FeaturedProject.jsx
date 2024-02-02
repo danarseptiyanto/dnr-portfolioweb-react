@@ -1,4 +1,5 @@
 import { Carousel } from 'flowbite-react';
+import { Link } from 'react-router-dom';
 const FeaturedProject = () => {
     return ( 
         <>
@@ -10,21 +11,21 @@ const FeaturedProject = () => {
             <div className="flex justify-between mb-16 sm:flex-col sm:mb-7" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
                 <div className="w-[535px] sm:w-auto">
                     <p className="font-inter text-xl sm:text-base dark:text-drktext">Frontend Web Development</p>
-                    <a href="/blog-belajar-era-digital-porfolio.html" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Belajar Era Digital Landing Page</a>
+                    <Link to="/project/belajareradigital-landing-page" onClick={() => {window.scroll(0, 0);}} className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Belajar Era Digital Landing Page</Link>
                 </div>
                 <div className="apply-image-slider h-[450px] sm:hidden">
                 <Carousel className='rounded-2xl'>
                     <img className='rounded-2xl' src="src/img/bed-1.jpg"/>
-                    <img className='rounded-2xl' src="src/img/bed-1.jpg"/>
-                    <img className='rounded-2xl' src="src/img/bed-1.jpg"/>
+                    <img className='rounded-2xl' src="src/img/bed-2.jpg"/>
+                    <img className='rounded-2xl' src="src/img/bed-3.jpg"/>
                 </Carousel>
                 </div>
-                <a href="/blog-belajar-era-digital-porfolio.html"><img className="hidden apply-image-slider sm:block" src="src/img/bed-1.jpg"/></a>
+                <Link to="/project/belajareradigital-landing-page"><img className="hidden apply-image-slider sm:block" src="src/img/bed-1.jpg"/></Link>
             </div>
             <div className="flex justify-between mb-16 sm:flex-col sm:mb-7" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
                 <div className="w-[535px] sm:w-auto">
                     <p className="font-inter text-xl sm:text-base dark:text-drktext">Graphic Design</p>
-                    <a href="/blog-belajar-era-digital-porfolio.html" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Yearbook SMK Bina Nusantara</a>
+                    <a href="" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Yearbook SMK Bina Nusantara</a>
                 </div>
                 <div className="apply-image-slider h-[450px] sm:hidden">
                 <Carousel className='rounded-2xl'>
@@ -33,12 +34,12 @@ const FeaturedProject = () => {
                     <img className='rounded-2xl' src="src/img/yearbook-3.jpg"/>
                 </Carousel>
                 </div>
-                <a href="/blog-belajar-era-digital-porfolio.html"><img className="hidden apply-image-slider sm:block" src="src/img/yearbook-1.jpg"/></a>
+                <a href=""><img className="hidden apply-image-slider sm:block" src="src/img/yearbook-1.jpg"/></a>
             </div>
             <div className="flex justify-between mb-16 sm:flex-col sm:mb-7" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
                 <div className="w-[535px] sm:w-auto">
                     <p className="font-inter text-xl sm:text-base dark:text-drktext">Vector Portrait Illustration</p>
-                    <a href="/blog-belajar-era-digital-porfolio.html" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Vector Illustration Collection</a>
+                    <a href="" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">Vector Illustration Collection</a>
                 </div>
                 <div className="apply-image-slider h-[450px] sm:hidden">
                 <Carousel className='rounded-2xl'>
@@ -47,12 +48,12 @@ const FeaturedProject = () => {
                     <img className='rounded-2xl' src="src/img/vector-3.jpg"/>
                 </Carousel>
                 </div>
-                <a href="/blog-belajar-era-digital-porfolio.html"><img className="hidden apply-image-slider sm:block" src="src/img/vector-1.jpg"/></a>
+                <a href=""><img className="hidden apply-image-slider sm:block" src="src/img/vector-1.jpg"/></a>
             </div>
             <div className="flex justify-between mb-16 sm:flex-col sm:mb-7" data-aos="fade-up" data-aos-duration="750" data-aos-once="true">
                 <div className="w-[535px] sm:w-auto">
                     <p className="font-inter text-xl sm:text-base dark:text-drktext">Graphic Design</p>
-                    <a href="/blog-belajar-era-digital-porfolio.html" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">SMK Bina Nusantara Marketing Kit</a>
+                    <a href="" className="font-inter font-medium text-[40px] hover:font-black leading-tight hover:text-secondary dark:hover:text-secondary sm:text-2xl dark:text-white">SMK Bina Nusantara Marketing Kit</a>
                 </div>
                 <div className="apply-image-slider h-[450px] sm:hidden">
                 <Carousel className='rounded-2xl'>
@@ -60,7 +61,7 @@ const FeaturedProject = () => {
                     <img className='rounded-2xl' src="src/img/binus-2.jpg"/>
                 </Carousel>
                 </div>
-                <a href="/blog-belajar-era-digital-porfolio.html"><img className="hidden apply-image-slider sm:block" src="src/img/binus-1.jpg"/></a>
+                <a href=""><img className="hidden apply-image-slider sm:block" src="src/img/binus-1.jpg"/></a>
             </div>
         </div>
         </>
