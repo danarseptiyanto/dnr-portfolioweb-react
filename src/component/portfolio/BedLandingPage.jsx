@@ -19,11 +19,11 @@ const BedLandingPageContent = () => {
   <div className="max-w-main sm:max-w-[90%] mx-auto my-14 xl:my-8">
     <img
       className="rounded-2xl object-cover xl:w-full xl:h-1/2 sm:hidden"
-      src="../src/img/blog-opener2.jpg"
+      src="../img/blog-opener2.jpg"
     />
     <img
       className="hidden rounded-2xl sm:block"
-      src="../src/img/blog-opener2.jpg"
+      src="../img/blog-opener2.jpg"
     />
   </div>
   <div className="max-w-main sm:max-w-[90%] mx-auto flex justify-between pb-10 border-b border-drkborder sm:block">
@@ -51,9 +51,9 @@ const BedLandingPageContent = () => {
           where learning is fun, and boredom is so last season!{" "}
         </p>
         <div className="mt-8">
-          <img src="../src/img/bed-1.jpg" />
-          <img src="../src/img/bed-2.jpg" />
-          <img src="../src/img/bed-3.jpg" />
+          <img src="../img/bed-1.jpg" />
+          <img src="../img/bed-2.jpg" />
+          <img src="../img/bed-3.jpg" />
         </div>
       </div>
     </div>

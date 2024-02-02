@@ -1,26 +1,39 @@
 import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 import { Dropdown } from 'flowbite-react';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+    const [theme, setTheme] = useState("dark");
+    useEffect(() => {
+        if (theme === "dark") {
+          document.documentElement.classList.add("dark");
+        } else {
+          document.documentElement.classList.remove("dark");
+        }
+      }, [theme]);
+
+    const handleThemeSwitch = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+      };
+    
     return ( 
     <div className="max-w-main sm:max-w-[90%] mx-auto">
     <nav className="">
     <div className="container mx-auto flex flex-wrap items-center justify-between mt-[67px] sm:mt-8 xl:mt-10">
         <Link to="/" className="flex" id="logo" >
-            <img src="/src/img/logo-nav.svg" data-aos="fade-up" data-aos-duration="650" data-aos-once="true"/>
+            <img src="/img/logo-nav.svg" data-aos="fade-up" data-aos-duration="650" data-aos-once="true"/>
             <span className="self-center text-xl ml-2 text-main font-inter font-medium whitespace-nowrap dark:text-white" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">danarsept</span>
         </Link>
             <li className="flex">
-                <button id="theme-toggle" type="button" className="mr-3 font-inter text-main text-xl font-medium dark:text-white">
-                    <i id="theme-toggle-dark-icon" className="hidden ri-sun-line" fill="currentColor"></i>
-                    <i id="theme-toggle-light-icon" className="hidden ri-contrast-2-line" fill="currentColor"></i>
+                <button onClick={handleThemeSwitch} type="button" className="mr-3 font-inter text-main text-xl font-medium dark:text-white" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+                    <i className="ri-sun-line" fill="currentColor"></i>
                 </button>
-                <Flowbite>
+                {/* <Flowbite>
                     <div data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
                         <DarkThemeToggle />
                     </div>
-                </Flowbite>
+                </Flowbite> */}
                 <Dropdown label="" dismissOnClick={false} renderTrigger={() => <button className="font-inter text-main text-xl font-medium flex items-center justify-between w-full justify-items-center dark:text-white" data-aos="fade-up" data-aos-duration="850" data-aos-once="true">Menu</button>}>
                     <Dropdown.Item className='font-inter text-base dark:text-white'><a href="https://www.instagram.com/danarsept/">Instagram</a></Dropdown.Item>
                     <Dropdown.Item className='font-inter text-base dark:text-white'><a href="https://www.behance.net/danarandco">GitHub</a></Dropdown.Item>

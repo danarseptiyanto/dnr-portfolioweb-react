@@ -15,8 +15,8 @@ const Skills = () => {
                 I was learning frontend web development since high school but have gotten to being serious about it since the end of 2023, I’ve made some project and even got a part time job out of it on those short period of time
             </p>
             <div className="flex mt-4">
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-laravel.png"/>
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-tailwind.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-laravel.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-tailwind.png"/>
             </div>
         </div>
         <div className="bg-white max-w-[393px] p-[35px] border border-stroke rounded-2xl sm:p-5 sm:max-w-max hover:bg-secondary dark:bg-drksecondary dark:border-drkborder dark:hover:bg-drkborder">
@@ -25,9 +25,9 @@ const Skills = () => {
                 I have a lot of history with graphic design since I’ve been doing it from the high school regularly until now. I have a lot of free time back then so I made a lot of stuff, whether just for fun or being paid as a freelancer
             </p>
             <div className="flex mt-4">
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-corel.png"/>
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-ps.png"/>
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-ai.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-corel.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-ps.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-ai.png"/>
             </div>
         </div>
         <div className="bg-white max-w-[393px] p-[35px] border border-stroke rounded-2xl sm:p-5 sm:max-w-max hover:bg-secondary dark:bg-drksecondary dark:border-drkborder dark:hover:bg-drkborder">
@@ -36,8 +36,8 @@ const Skills = () => {
               The part I enjoy most from graphic design is layouting, that’s why when Learned about UI / UX, I have to try to dip my toe into it. Those personal project was fun, and eventually be very useful for my job as frontent web dev
             </p>
             <div className="flex mt-4">
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-figma.png"/>
-                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-ps.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-figma.png"/>
+                <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-ps.png"/>
             </div>
         </div>
         <div className="bg-white max-w-[393px] p-[35px] border border-stroke rounded-2xl sm:p-5 sm:max-w-max hover:bg-secondary dark:bg-drksecondary dark:border-drkborder dark:hover:bg-drkborder">
@@ -46,8 +46,8 @@ const Skills = () => {
                 Many hours of my high school life was just me fiddling with CorelDraw and making Vector Portrait Illustration, whether as a paid commission or just for fun. Im not particularly very good at it, but it was fun & relaxing
             </p>
             <div className="flex mt-4">
-              <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-corel.png"/>
-              <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="src/img/icon-ps.png"/>
+              <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-corel.png"/>
+              <img className="bg-stroke p-2 mr-2 rounded-md dark:bg-white" src="/img/icon-ps.png"/>
             </div>
         </div>
     </div>
